@@ -19,7 +19,7 @@ while true
     if request.include? "GET"
       content = read_html
       socket.write <<-EOF
-HTTP/1.1 200 OK
+HTTP/1.1 200 
 Content-Type: text/html; charset=UTF-8
 Server: rserver
 Connection: close
